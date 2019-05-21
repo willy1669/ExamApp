@@ -11,3 +11,6 @@ Quiz.prototype.guess = function (answer) {
     this.currentQuestionIndex++;
 }
 
+Quiz.prototype.getCurrentQuestion = function () {
+    return this.questions = [this.currentQuestionIndex];
+}
