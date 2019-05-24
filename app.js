@@ -5,3 +5,5 @@ var questions = [
 
 //create quiz
 var quiz = new quiz(questions);
+
+QuizUI.displayNext()
